@@ -1,0 +1,13 @@
+# Ejercicio Dataframe motivo de muerte
+
+Motivo_de_muerte <- c("Falla sistema uninario", "Neoplasia", "Infeccioso", "Trauma", "Falla sistema cardiovascular", "Muerte súbita", "Cuerpo extraño")
+Año_0_a_4_años <- c(16,13,23,19,4,3,1)
+Año_5_a_9_años <- c(33,23,15,5,6,3,5)
+Año_10_a_14_años <- c(47,50,13,3,9,1,0)
+Año_15_años_o_más <- c(43,37,2,1,2,0,0)
+Tabla <- data.frame("Motivo_de_muerte"=Motivo_de_muerte,
+                    "Edad 0 a 4 años"=Año_0_a_4_años,
+                    "Edad 5 a 9 años"=Año_5_a_9_años,
+                    "Edad 10 a 14 años"=Año_10_a_14_años,
+                    "Edad 15 años o más"=Año_15_años_o_más)
+View(Tabla)
