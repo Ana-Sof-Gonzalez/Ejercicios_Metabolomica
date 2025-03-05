@@ -1,0 +1,20 @@
+---
+title: "Evaluación MT-1"
+author: "Ana Sofía González"
+date: "2025-03-05"
+output: html_document
+---
+
+```{r}
+Nombre <- c("Gilberto", "Marlo", "María", "Carlos", "Valeria")
+Edad <- c(25, 32, 18, 29, 37)
+Estatura <- c(1.7, 1.82, 1.69, 1.72, 1.6)  
+Tabla_edad <- data.frame(Nombre=Nombre, Edad=Edad, Estatura=Estatura)
+Tabla_edad
+```
+```{r}
+Prom_edad <- mean(Edad)
+Prom_edad
+Prom_estatura <- mean(Estatura)
+Prom_estatura
+```
